@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@custom-variant hover (&:hover);
+
+@layer base {
+  h3 {
+    @apply font-bold text-4xl md:text-5xl text-darkGrayishBlue mb-8;
+  }
+}
+
+.section-container {
+    @apply max-w-6xl text-center mx-auto px-10;
+}
+.section-content {
+  @apply max-w-3xl mx-auto leading-9 text-center text-grayishBlue;
+}
+
+.ficon:hover{
+  filter:invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg)
+  brightness(101%) contrast(94%);
+}
+
+
+/* New BreakPoints */
+@theme {
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 976px;
+  --breakpoint-xl: 1440px;
+}
+/* New Colors */
+@theme {
+  --color-strongCyan: hsl(171, 66%, 44%);
+  --color-lightBlue: hsl(233, 100%, 69%);
+  --color-darkGrayishBlue: hsl(210, 10%, 33%);
+  --color-grayishBlue: hsl(201, 11%, 66%);
+}
+/* New Fonts */
+@theme {
+  --font-sans: "Bai JamJuree", sans-serif;
+}
