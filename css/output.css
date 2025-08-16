@@ -244,21 +244,6 @@
   .flex {
     display: flex;
   }
-  .h-8 {
-    height: calc(var(--spacing) * 8);
-  }
-  .h-14 {
-    height: calc(var(--spacing) * 14);
-  }
-  .h-16 {
-    height: calc(var(--spacing) * 16);
-  }
-  .w-32 {
-    width: calc(var(--spacing) * 32);
-  }
-  .w-40 {
-    width: calc(var(--spacing) * 40);
-  }
   .max-w-md {
     max-width: var(--container-md);
   }
@@ -368,9 +353,6 @@
   }
   .text-grayishBlue {
     color: var(--color-grayishBlue);
-  }
-  .text-strongCyan {
-    color: var(--color-strongCyan);
   }
   .text-white {
     color: var(--color-white);
